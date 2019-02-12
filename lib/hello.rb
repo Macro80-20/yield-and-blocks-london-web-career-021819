@@ -1,5 +1,5 @@
 def hello_t(array)
-if block_given? #stops our methodf from breaking called without an accompanying block 
+if block_given? #stops our methodf from breaking called without an accompanying block
   i = 0
 
   while i < array.length
