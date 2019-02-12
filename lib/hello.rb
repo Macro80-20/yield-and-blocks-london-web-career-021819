@@ -8,7 +8,7 @@ def hello_t(array)
 end
 
 # call your method here!
-hello_t(["Tim", "Tom", "Jim"]) do |name| #this will accept the element passed onto yield 
+hello_t(["Tim", "Tom", "Jim"]) do |name| #this will accept the element passed onto yield
   # in this case array[i]
   if name.start_with?("T")
     puts "Hi, #{name}"
