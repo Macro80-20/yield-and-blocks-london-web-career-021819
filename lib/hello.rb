@@ -11,4 +11,3 @@ end
 # call your method here!
 hello_t(["Tim", "Tom", "Jim"]) #this will accept the element passed onto yield
   # in this case array[i]
-
