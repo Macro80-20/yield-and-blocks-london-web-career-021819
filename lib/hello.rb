@@ -13,5 +13,10 @@ end
 end
 
 # call your method here!
-hello_t(["Tim", "Tom", "Jim"]) #this will accept the element passed onto yield
+hello_t(["Tim", "Tom", "Jim"]) #this will accept the element passed from yield to be used in the block code below
+do |name|
+  if name.start_with?("T")
+    puts "Hi, #{name}"
+  end
+end
   # in this case array[i]
