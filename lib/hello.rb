@@ -7,6 +7,9 @@ if block_given?
     i = i + 1
   end
   array
+else
+  puts "Hey no blck"
+end
 end
 
 # call your method here!
